@@ -16,10 +16,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>{count}</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
+        <button style={{ marginRight: '20px' }} onClick={() => setCount((count) => count + 1)}>
+          count + 
+        </button>
+        <button onClick={() => setCount((prev) => prev - 1)}>
+          count -
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
