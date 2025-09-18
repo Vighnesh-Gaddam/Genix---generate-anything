@@ -8,6 +8,7 @@ import GenerateImages from "./pages/GenerateImages"
 import RemoveBackground from "./pages/RemoveBackground"
 import ReviewResume from "./pages/ReviewResume"
 import Community from "./pages/Community"
+import RemoveObject from "./pages/RemoveObject"
 
 const App = () => {
   return (
